@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tools</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background: #24292f;
+            color: white;
+            padding: 32px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+            font-size: 2rem;
+        }
+
+        header p {
+            margin: 0;
+            color: #d0d7de;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .tool {
+            display: block;
+            padding: 24px;
+            background: white;
+            border: 1px solid #d8dee4;
+            border-radius: 12px;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .tool:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+        }
+
+        .tool h2 {
+            margin: 0 0 10px;
+            font-size: 1.2rem;
+            color: #0969da;
+        }
+
+        .tool p {
+            margin: 0;
+            color: #57606a;
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #57606a;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Tools</h1>
+    <p>Engineering and productivity tools</p>
+</header>
+
+<main>
+    <div class="tools">
+
+        <a class="tool" href="https://moe-sg.github.io/Meetings/index.html">
+            <h2>🎙️ Meeting Recorder, Summarizer</h2>
+            <p>Record and summarize meetings.</p>
+        </a>
+
+        <a class="tool" href="https://moe-sg.github.io/RedLine/index.html">
+            <h2>📄 PDF / IMAGE Editor</h2>
+            <p>Edit and work with PDF and image files.</p>
+        </a>
+
+        <a class="tool" href="https://moe-sg.github.io/ScreenRecorder/index.html">
+            <h2>🖥️ Screen Recorder</h2>
+            <p>Record your screen directly from the browser.</p>
+        </a>
+
+        <a class="tool" href="https://moe-sg.github.io/Schematic/index.html">
+            <h2>⚡ Draw Schematic</h2>
+            <p>Create and draw electrical schematics.</p>
+        </a>
+
+        <a class="tool" href="https://moe-sg.github.io/TestBox/index.html">
+            <h2>📦 Design Test Box Face Plate</h2>
+            <p>Design enclosure and test-box face plates.</p>
+        </a>
+
+        <a class="tool" href="https://moe-sg.github.io/Compare_ExplandedBill/index.html">
+            <h2>📊 Compare Expanded Bill</h2>
+            <p>Run the expanded bill comparison tool.</p>
+        </a>
+
+    </div>
+</main>
+
+<footer>
+    Hosted with GitHub Pages
+</footer>
+
+</body>
+</html>
